@@ -32,7 +32,7 @@ for name in chess_images:
         cv2.waitKey(500)
 
 ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(real_points, img_points, chess_gray.shape[::-1], None, None)
-img = cv2.imread('C:/Users/LENOVO/Downloads/job/New folder/opencv/calib/WIN_20230103_12_49_02_Pro.jpg')
+img = cv2.imread("ENTER YOUR IMAGE PATH HERE")
 
 h,  w = img.shape[:2]
 newcameramtx, roi = cv2.getOptimalNewCameraMatrix(mtx, dist, (w,h), 1, (w,h))
