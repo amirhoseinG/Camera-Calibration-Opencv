@@ -1,0 +1,17 @@
+<?xml version="1.0" ?><opencv_storage>
+<!-- <calibrationDate> DATE </calibrationDate> -->
+<framesCount>13</framesCount>
+<cameraResolution>(1254, 683)</cameraResolution>
+<cameraMatrix>
+
+  <data>[[1414.0729773326323, 0.0, 363.7001231936615], [0.0, 1415.077879712056, 575.2535620400896], [0.0, 0.0, 1.0]]</data></cameraMatrix>
+<NewCameraMatrix>
+
+  <data>[[1405.6973876953125, 0.0, 362.67346783113317], [0.0, 1440.5999755859375, 559.2959722803607], [0.0, 0.0, 1.0]]</data></NewCameraMatrix>
+<dist_coeffs>
+
+  <data>[[0.03717004685889615, 0.061372846338655, -0.029201648586432587, -0.001182473869040401, 1.7711323121609566]]</data></dist_coeffs>
+<Roi>
+  <data>(18, 9, 683, 1254)</data></Roi>
+<!-- <avg_reprojection_error></avg_reprojection_error> -->
+</opencv_storage>
